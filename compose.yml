@@ -5,7 +5,7 @@ services:
     environment:
       BOOT: "https://download.bazzite.gg/bazzite-deck-stable-amd64.iso"
       RAM_SIZE: "8G"
-      CPU_CORES: "8"
+      CPU_CORES: "4"
       DISK_SIZE: "512G"
     devices:
       - /dev/kvm
